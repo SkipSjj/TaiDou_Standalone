@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18507930-8E2E-5E64-8EB0-43A4BF9198C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\EffectScriptSample.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcDetachObject.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcDisableDelayActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcDontActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectAniBehaviour.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectBehaviour.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcEffectInitBackup.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcRandomTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcRepeatTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcTimerTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NcTransformTool.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NgInterpolate.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NsEffectManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NsRenderManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\Common\NsSharedManager.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcAddForce.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcAttachPrefab.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcAttachSound.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcAutoDeactive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcAutoDestruct.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcBillboard.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcChangeAlpha.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcCurveAnimation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcDelayActive.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcDetachParent.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcDuplicator.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcParticleEmit.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcParticleSpiral.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcParticleSystem.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcRotation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcSpriteAnimation.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcSpriteFactory.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcSpriteTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcTilingTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcTrailTexture.cs" />
+    <Compile Include="Assets\Effects\IGSoft_Resources\Scripts\NcEffect\NcUvAnimation.cs" />
+    <Compile Include="Assets\Effects\Scripts\Demo\MyGuiV2.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Balls\AddMaterialOnHit.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Balls\AnimatorBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Balls\LazyLoad.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Balls\ProjectileCollisionBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Balls\SetRandomStartPoint.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Buffs\ShieldCollisionBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Objects\MoveOnGround.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Shots\LineRendererBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Waves\ClothGridCollisionBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Prefabs\Waves\InstanceMaterial.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\Billboard.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\CollisionActiveBehaviour.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\DeadTime.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\EffectSettings.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutLight.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutParticles.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutScale.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutShaderColor.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutShaderFloat.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\FadeInOutStatus.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\InvokeInterval.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\OnStartSendCollision.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\RandomRotateOnStart.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\SetPositionOnHit.cs" />
+    <Compile Include="Assets\Effects\Scripts\Share\UVTextureAnimator.cs" />
+    <Compile Include="Assets\Models\NPC_Girl\scirpt\characterRotate.cs" />
+    <Compile Include="Assets\Scripts\Commons\ConfirmExitGameMask.cs" />
+    <Compile Include="Assets\Scripts\Commons\FollowTarget.cs" />
+    <Compile Include="Assets\Scripts\Commons\HintInfor.cs" />
+    <Compile Include="Assets\Scripts\Commons\JsonTools.cs" />
+    <Compile Include="Assets\Scripts\Commons\LoadingController.cs" />
+    <Compile Include="Assets\Scripts\Commons\Player.cs" />
+    <Compile Include="Assets\Scripts\Commons\PowerShow.cs" />
+    <Compile Include="Assets\Scripts\Commons\Server.cs" />
+    <Compile Include="Assets\Scripts\Commons\SpinWithMouse.cs" />
+    <Compile Include="Assets\Scripts\Commons\UICustomTextGradient.cs" />
+    <Compile Include="Assets\Scripts\Commons\User.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\Boss.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\BossBullet.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\BossHpBar.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\Combo.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\DamageShow.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\Destroy.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\EnemyTrigger.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\GameLevelManager.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\HpBar.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\PlayerBg.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\PlayerMove_GameLevel.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\ResultMask.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\SkillButton.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\SkillsBg.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\CreatePlayerController.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\LoginController.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\PlayerChangeSize.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\PlayerInforController.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\RegisterController.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\ServerSelect.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\StartMenuController.cs" />
+    <Compile Include="Assets\Scripts\Villarger\EnterGameDialog.cs" />
+    <Compile Include="Assets\Scripts\Villarger\GameController.cs" />
+    <Compile Include="Assets\Scripts\Villarger\GameLevel\GameLevelBtn.cs" />
+    <Compile Include="Assets\Scripts\Villarger\GameLevel\GameLevelInfor.cs" />
+    <Compile Include="Assets\Scripts\Villarger\GameLevel\GameLevelSelect.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\EquipInfor.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\InventoryBg.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\InventoryInforBg.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\InventoryManager.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\Knapsack.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\KnasackPlayerBg.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Knapsack\KnasackPlayerEquip.cs" />
+    <Compile Include="Assets\Scripts\Villarger\MoneyBar.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerAnimations.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerAutoMove.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerBar.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerInfor.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerInforBar.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Player\PlayerMove_Villarger.cs" />
+    <Compile Include="Assets\Scripts\Villarger\ShopUI.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Skill\Skill.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Skill\SkillItem.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Skill\SkillUI.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Sys\SysSetupController.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Sys\SysSetupUI.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Task\Task.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Task\TaskItemUI.cs" />
+    <Compile Include="Assets\Scripts\Villarger\Task\TaskUI.cs" />
+    <Compile Include="Assets\SimpleTouchController\Scripts\InfoTouches.cs" />
+    <Compile Include="Assets\SimpleTouchController\Scripts\PlayerMoveController.cs" />
+    <Compile Include="Assets\SimpleTouchController\Scripts\SimpleTouchController.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\Samples\iTweenEventSample.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTween\Sample\MoveSample.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTween\Sample\RotateSample.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTween\iTween.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenAlphaTo.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenEditor.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenPositionTo.cs" />
+    <Compile Include="Assets\Vortex Game Studios\iTween Editor\iTweenValueTo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Effects\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended Tint.shader" />
+    <None Include="Assets\Effects\Shaders\GlowAdditiveTwoColor.shader" />
+    <None Include="Assets\Models\Enemy\Masked Orc\Read Me.txt" />
+    <None Include="Assets\Models\NPC_Boy\ReadMe [V 1.4]  02 06.txt" />
+    <None Include="Assets\Scripts\Txts\Inventory 物品信息清单.txt" />
+    <None Include="Assets\SimpleTouchController\README.txt" />
+    <None Include="Assets\Vortex Game Studios\iTween Editor\iTween\ReadMe!\ReadMe!.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
